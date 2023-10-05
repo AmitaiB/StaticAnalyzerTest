@@ -11,9 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        print(youreShmoopy)
     }
 
-
+    var youreShmoopy: Bool { !noYoureShmoopy }
+    var noYoureShmoopy: Bool { !youreShmoopy }
 }
 
